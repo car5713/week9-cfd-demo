@@ -24,6 +24,7 @@
   .wrap { max-width: 1380px; margin: 0 auto; padding: 20px 16px 40px; }
   header h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.3px; }
   header p { margin: 0; color: var(--muted); }
+  header p.author { margin: 0 0 8px; color: var(--text); font-size: 16px; font-weight: 600; }
   .badge {
     display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px;
     border: 1px solid var(--line); background: var(--panel-2); color: var(--muted); margin-right: 6px;
@@ -105,6 +106,7 @@
 <div class="wrap">
   <header>
     <h1>신경망 기반 덮개 구동 캐비티(Lid-driven cavity) 유동장 예측</h1>
+    <p class="author">제작: 이강현</p>
     <p>
       <span class="badge" id="archBadge">MLP</span>
       <span class="badge">브라우저 내 순전파 (CFD · 재학습 없음)</span>
